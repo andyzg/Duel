@@ -1,5 +1,6 @@
 {
   "name": "Duel",
+<<<<<<< HEAD
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -15,3 +16,32 @@
     "facebook-node-sdk":"~0.2.0"
   }
 }
+=======
+  "version": "0.0.0",
+  "author": "Andy Zhang <andyzhng@gmail.com>",
+  "description": "A website allowing a party to race through a series of questions",
+  "scripts": {
+    "start": "node app.js",
+    "test": "vows --spec --isolate",
+    "predeploy": "echo This will be run before deploying the app",
+    "postdeploy": "echo This will be run after deploying the app"
+  },
+  "main": "./lib/http-server",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/andyzg/Duel.git"
+  },
+  "keywords": [
+    "duel",
+    "http",
+    "server"
+  ],
+  "dependencies": {
+    "express": "3.4.7",
+    "passport":"0.1.17",
+    "jade": "*",
+    "stylus": "*",
+    "mongodb": ">= 1.3.23"
+  }
+}
+>>>>>>> b5b08fe463dbaa7ad329027ef18007170a5fe964
